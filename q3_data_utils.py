@@ -26,8 +26,9 @@ def load_data(filepath: str) -> pd.DataFrame:
     pass
 
 
-def clean_data(df: pd.DataFrame, remove_duplicates: bool = True,
-               sentinel_value: float = -999) -> pd.DataFrame:
+def clean_data(
+    df: pd.DataFrame, remove_duplicates: bool = True, sentinel_value: float = -999
+) -> pd.DataFrame:
     """
     Basic data cleaning: remove duplicates and replace sentinel values with NaN.
 
@@ -63,7 +64,7 @@ def detect_missing(df: pd.DataFrame) -> pd.Series:
     pass
 
 
-def fill_missing(df: pd.DataFrame, column: str, strategy: str = 'mean') -> pd.DataFrame:
+def fill_missing(df: pd.DataFrame, column: str, strategy: str = "mean") -> pd.DataFrame:
     """
     Fill missing values in a column using specified strategy.
 
@@ -137,8 +138,9 @@ def transform_types(df: pd.DataFrame, type_map: dict) -> pd.DataFrame:
     pass
 
 
-def create_bins(df: pd.DataFrame, column: str, bins: list,
-                labels: list, new_column: str = None) -> pd.DataFrame:
+def create_bins(
+    df: pd.DataFrame, column: str, bins: list, labels: list, new_column: str = None
+) -> pd.DataFrame:
     """
     Create categorical bins from continuous data using pd.cut().
 
@@ -163,8 +165,9 @@ def create_bins(df: pd.DataFrame, column: str, bins: list,
     pass
 
 
-def summarize_by_group(df: pd.DataFrame, group_col: str,
-                       agg_dict: dict = None) -> pd.DataFrame:
+def summarize_by_group(
+    df: pd.DataFrame, group_col: str, agg_dict: dict = None
+) -> pd.DataFrame:
     """
     Group data and apply aggregations.
 
@@ -191,9 +194,7 @@ def summarize_by_group(df: pd.DataFrame, group_col: str,
     pass
 
 
-
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     # Optional: Test your utilities here
     print("Data utilities loaded successfully!")
     print("Available functions:")
@@ -205,7 +206,7 @@ if __name__ == '__main__':
     print("  - transform_types()")
     print("  - create_bins()")
     print("  - summarize_by_group()")
-    
+
     # TODO: Add simple test example here
     # Example:
     # test_df = pd.DataFrame({'age': [25, 30, 35], 'bmi': [22, 25, 28]})
