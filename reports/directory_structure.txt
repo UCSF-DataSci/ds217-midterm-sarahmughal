@@ -1,0 +1,23 @@
+.
+├── __pycache__
+│   └── q3_data_utils.cpython-313.pyc
+├── data
+│   └── clinical_trial_raw.csv
+├── generate_data.py
+├── GRADING_SPEC.md
+├── output
+├── q1_setup_project.sh
+├── q2_config.txt
+├── q2_process_metadata.py
+├── q3_data_utils.py
+├── q4_exploration.ipynb
+├── q5_missing_data.ipynb
+├── q6_transformation.ipynb
+├── q7_aggregation.ipynb
+├── q8_run_pipeline.sh
+├── README.md
+├── reports
+│   └── directory_structure.txt
+└── requirements.txt
+
+5 directories, 16 files
