@@ -22,6 +22,6 @@ intervention_group  mean_adherence_pct
        treatment a               60.47
        treatment b               61.15
 
-→ When grouped by site, Site D shows the highest mean age, while mean BMI and systolic blood pressure remain relatively consistent across all sites.
-→ The mean outcome_CVD rate is highest in the Control group, whereas mean adherence percentage is greatest for Treatment B.
-→ The outcome_CVD and adherence_pct values are relatively consistent across all groups.
+→ When grouped by site, site d shows the highest mean age, while mean BMI and systolic blood pressure remain relatively consistent across all sites.
+→ The mean outcome_CVD rate is highest in the control group, whereas mean adherence percentage is greatest for treatment b.
+→ The outcome_CVD and PCT values are relatively consistent across all groups.
